@@ -36,6 +36,13 @@
       background-color: rgb(48, 51, 221);
       color: white;
     }
+
+    #miA {
+      border-radius: 1em/5em;
+      border-color: blue;
+      padding: 20px;
+      text-decoration: none;
+    }
   </style>
 
 
@@ -50,36 +57,28 @@
       <a href="../index.html">
       <img class="mb-4" src="../img/LogoGT.png" width="350">
     </a>
-      <h1 class="h3 mb-3 fw-normal">Registrate</h1>
+      <h1 class="h3 mb-3 fw-normal">Inicie Sesión</h1>
 
       <div class="form-floating">
         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-        <label for="floatingInput">Nombre</label>
+        <label for="floatingInput">Usuario</label>
       </div>
       <div class="form-floating">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-        <label for="floatingInput">Apellidos</label>
-      </div>
-      <div class="form-floating">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-        <label for="floatingInput">Email</label>
-      </div>
-      <div class="form-floating">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-        <label for="floatingInput">Contraseña</label>
-      </div>
-      <div class=" mb-3">
-        <label for="formFile" class="form-label">Inserte foto de perfil</label>
-        <input class="form-control" type="file" id="formFile">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Contraseña</label>
       </div>
 
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me">Recuerde mis datos
+        </label>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar Sesión</button>
       <br><br>
-      <button class="w-100 btn btn-lg btn-primary" type="submit">Registrate</button>
-      <br><br>
-      <h1 class="h6 mb-3 fw-normal">¿Ya estás registrado?</h1>
-      <a href="iniciar.html">
-        ¡Inicia Sesión!</button>
-      </a>
+      <h1 class="h6 mb-3 fw-normal">¿No estás registrado?</h1>
+      <a href="registrar.html" id="miA">
+        ¡Registrate!
+        </a>
       <p class="mt-5 mb-3 text-muted">&copy; DIU-Piña &middot; &middot; <a href="#">Sobre nosotros</a></p>
     </form>
   </main>
