@@ -1,6 +1,15 @@
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 footer img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 8em;
+	height: auto;
+    
+}
+
+footer p {
+    margin-right: 10%;
 }
