@@ -139,3 +139,9 @@ button:nth-child(5):hover ~ button {
     color: var(--color-hover);
     transform: rotate(360deg);
 }
+
+.slidecontainer {
+    margin-left: 1.5em;
+    width: 100%;
+}
+
