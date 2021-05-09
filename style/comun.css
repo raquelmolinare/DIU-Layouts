@@ -51,6 +51,7 @@ article{
     width: 10em;
 }
 
+
 .reserva #hora{
     float: left;
     margin: 1%;
@@ -59,8 +60,21 @@ article{
 
 .reserva #clientes{
     float: left;
-    margin: 1%;
     width: 6em;
+}
+
+.reserva #checkinout{
+    float: left;
+    margin: 1.5%;
+    width: 8em;
+}
+
+.reserva #clienteshabitaciones{
+    width: 15em;
+}
+
+#clienteshabitaciones #clientes{
+    width: 2em;
 }
 
 .findMap{
