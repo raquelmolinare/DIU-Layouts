@@ -106,57 +106,51 @@
       <div class="row">
         <div class="col-sm-3 col-md-3">
           <div class="list-group">
-            <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+            <button type="button" class="list-group-item list-group-item-action" aria-current="true">
               Mi perfil
             </button>
             <a href="datosPago.html"><button type="button" class="list-group-item list-group-item-action">Mis datos de pago</button></a>
-            <a href="reservas.html"><button type="button" class="list-group-item list-group-item-action">Mis reservas realizadas</button></a>
+            <a href="reservas.html"><button type="button" class="list-group-item list-group-item-action active">Mis reservas realizadas</button></a>
             <a href="operaciones.html"><button type="button" class="list-group-item list-group-item-action">Mis operaciones</button></a>
           </div>
         </div>
         <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
-          <form class="row g-3">
-            <div>
-              <label for="formFileLg" class="form-label">Cambia tu foto de perfil</label>
-              <input class="form-control form-control-lg" id="formFileLg" type="file">
-            </div>
-            <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Contraseña nueva</label>
-              <input type="password" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">Repita contraseña</label>
-              <input type="password" class="form-control" id="inputPassword4">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress" class="form-label">Email</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="someEmail@domain.sth">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress2" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Mi nombre">
-            </div>
-            <div class="col-md-6">
-              <label for="inputCity" class="form-label">City</label>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">State</label>
-              <select id="inputState" class="form-select">
-                <option selected>Choose...</option>
-                <option>...</option>
-              </select>
-            </div>
-            <div class="col-md-2">
-              <label for="inputZip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="inputZip">
-            </div>
-            <div class="col-12">
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">Guardar</button>
-            </div>
-          </form>
+         
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Hotel mention</h5>
+                    <small>hace 3 días</small>
+                  </div>
+                  <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                  <small>Donec id elit non mi porta.</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Ruta los cahorros</h5>
+                    <small class="text-muted">hace 1 mes</small>
+                  </div>
+                  <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                  <small class="text-muted">Donec id elit non mi porta.</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small class="text-muted">hace 3 meses</small>
+                  </div>
+                  <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                  <small class="text-muted">Donec id elit non mi porta.</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">List group item heading</h5>
+                      <small class="text-muted">hace 3 meses</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    <small class="text-muted">Donec id elit non mi porta.</small>
+                  </a>
+              </div>
+
         </div>
       </div>
     </div>
@@ -176,49 +170,7 @@
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
     crossorigin="anonymous"></script>
 
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-aria-labelledby="staticBackdropLabel" aria-hidden="true">
-<div class="modal-dialog">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h5 class="modal-title" id="staticBackdropLabel">Iniciar Sesión</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div>
-    <div class="modal-body">
-      <form>
-        <a href="../index.html">
-          <img id="centrador" class="center" src="../img/LogoGT.png" width="300">
-        </a>
 
-        <div class="form-floating">
-          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-          <label for="floatingInput">Usuario</label>
-        </div>
-        <div class="form-floating">
-          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-          <label for="floatingPassword">Contraseña</label>
-        </div>
-
-        <div class="checkbox mb-3">
-          <label>
-            <input type="checkbox" value="remember-me">Recuerde mis datos
-          </label>
-        </div>
-        <button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar Sesión</button>
-        <br><br>
-        <h1 class="h6 mb-3 fw-normal">¿No estás registrado?</h1>
-        <a href="registrar.html">
-          ¡Registrate!
-        </a>
-      </form>
-    </div>
-    <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-    </div>
-  </div>
-</div>
-</div>
 
 </body>
 

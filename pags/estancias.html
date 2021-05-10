@@ -65,7 +65,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="../index.html">
               <img src="../img/NAME_navbar.png" width="120px">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -89,7 +89,9 @@
                 <li class="nav-item">
                   <a class="nav-link active" href="../pags/ocio.html">Ocio</a>
                 </li>
-    
+                <li class="nav-item">
+                    <a class="nav-link active" href="/pags/soporte.html">Soporte</a>
+                  </li>
               </ul>
               <form class="d-flex">
                 <div class="btn-group">
@@ -822,7 +824,7 @@
 
   <!-- FOOTER -->
   <footer class="footer mt-auto py-3">
-    <p>&copy; DIU-Piña &middot; &middot; <a href="#">Sobre nosotros</a></p>
+    <p>&copy; DIU-Piña &middot; &middot; <a href="sobrenosotros.html">Sobre nosotros</a></p>
     <p><img src="../img/LogoGT.png" width="200"></p>
     <p class="float-end"><a href="#">Subir</a></p>
   </footer>
@@ -834,7 +836,49 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="../js/script.js" defer></script>
 
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="staticBackdropLabel">Iniciar Sesión</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <form>
+        <a href="../index.html">
+          <img id="centrador" class="center" src="../img/LogoGT.png" width="300">
+        </a>
 
+        <div class="form-floating">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Usuario</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Contraseña</label>
+        </div>
+
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me">Recuerde mis datos
+          </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar Sesión</button>
+        <br><br>
+        <h1 class="h6 mb-3 fw-normal">¿No estás registrado?</h1>
+        <a href="registrar.html">
+          ¡Registrate!
+        </a>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+    </div>
+  </div>
+</div>
+</div>
       
   </body>
 </html>

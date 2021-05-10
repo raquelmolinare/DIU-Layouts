@@ -1,114 +1,128 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Piña">
-    <link rel="shortcut icon" href="../img/LogoGT_Blanco.png" type="image/x-icon">
-    <title>Playas Granadinas</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Piña">
+  <link rel="shortcut icon" href="../img/LogoGT_Blanco.png" type="image/x-icon">
+  <title>Playas Granadinas</title>
 
-    
-
-    <!-- Bootstrap core CSS -->
-<!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
 
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
+
+  <!-- Bootstrap core CSS -->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
       }
+    }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
+    main {
+      margin-top: 200px;
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+  </style>
 
-      main {
-          margin-top: 200px;
-          margin-left: 80px;
-          margin-right: 80px;
-      }
-    </style>
 
-    
-    <!-- Custom styles for this template -->
-    <link href="../style/carousel.css" rel="stylesheet">
-    <link href="../style/nuestro.css" rel="stylesheet">
-  </head>
-  <body>
-    
-<header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html">
-        <img src="../img/NAME.png" width="150px">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Estancias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Transporte</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Restauración</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Ocio</a>
-          </li>
-          
-        </ul>
-        <form class="d-flex">
-          <div class="btn-group">
-            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Acciones de usuario
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="../pags/registrar.html">Registrarse</a></li>
-              <li><a class="dropdown-item" href="../pags/iniciar.html">Iniciar sesión</a></li>
-            </ul>
-          </div>
-        </form>
+  <!-- Custom styles for this template -->
+  <link href="../style/carousel.css" rel="stylesheet">
+  <link href="../style/nuestro.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/NAME.png" width="150px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Estancias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Transporte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Restauración</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Ocio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/pags/soporte.html">Soporte</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <div class="btn-group">
+              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Acciones de usuario
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../pags/registrar.html">Registrarse</a></li>
+                <li><a class="dropdown-item" href="../pags/iniciar.html">Iniciar sesión</a></li>
+              </ul>
+            </div>
+          </form>
+        </div>
       </div>
-    </div>
-  </nav>
-</header>
-<main>
+    </nav>
+  </header>
+  <main>
 
 
     <!-- START THE FEATURETTES -->
 
-    
- 
+
+
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Salobreña. <span class="text-muted">El Peñón.</span></h2>
-        <p class="lead">Salobreña es un conocido destino turístico situado en la provincia de Granada. Su peculiar estructura medieval está compuesta de callejones y pequeñas casas blancas, además de un imponente castillo y espectaculares vistas a las montañas que lo rodean, sin olvidarnos de sus playas amplias y bien equipadas. Todo esto hace de este pequeño pueblo el lugar ideal para pasar tus vacaciones. La playa con más renombre es, sin lugar a dudas, la playa del Peñón de Salobreña, de 1850 metros de longitud de arena gruesa. Sus aguas azules y transparentes acarician suavemente el Peñón, una pequeña isla unida junto a la playa a través de una franja de tierra.
+        <p class="lead">Salobreña es un conocido destino turístico situado en la provincia de Granada. Su peculiar
+          estructura medieval está compuesta de callejones y pequeñas casas blancas, además de un imponente castillo y
+          espectaculares vistas a las montañas que lo rodean, sin olvidarnos de sus playas amplias y bien equipadas.
+          Todo esto hace de este pequeño pueblo el lugar ideal para pasar tus vacaciones. La playa con más renombre es,
+          sin lugar a dudas, la playa del Peñón de Salobreña, de 1850 metros de longitud de arena gruesa. Sus aguas
+          azules y transparentes acarician suavemente el Peñón, una pequeña isla unida junto a la playa a través de una
+          franja de tierra.
 
-            La playa ofrece algunos servicios, entre los que destacan el servicio de vigilancia y el acceso facilitado para personas con movilidad reducida.</p>
+          La playa ofrece algunos servicios, entre los que destacan el servicio de vigilancia y el acceso facilitado
+          para personas con movilidad reducida.</p>
       </div>
       <div class="col-md-5">
         <img src="../img/peñón-de-salobreña.jpg" width="600">
 
       </div>
     </div>
- 
+
     <hr class="featurette-divider">
 
     <div class="row featurette">
@@ -116,12 +130,19 @@
         <h2 class="featurette-heading">Playa Calahonda. <span class="text-muted">Motril.</span></h2>
         <p class="lead">
 
-            Los 1200 metros de esta playa urbana se caracterizan por su arena oscura y gruesa, mientras sus aguas azules, cristalinas y tranquilas han ganado recientemente la Bandera Azul, un premio otorgado por la FEE (Fundación para la Educación Ambiental). Gracias a la gran cantidad de instalaciones disponibles (aseos, duchas, pasarelas, limpieza, vigilancia y salvamento, así como una cabina de la Cruz Roja y un acceso para personas con movilidad reducida), la playa tiene una tasa muy alta de ocupación, especialmente durante los meses de verano.
-            
-            El encanto del paseo marítimo, los hoteles y los chiringuitos, junto con las más de 100 plazas de aparcamiento y la parada de autobús cercana a la playa, hará que te guste aún más este lugar. Ahora sabes por qué esta playa se encuentra en esta selección de las mejores playas de Granada.</p>
+          Los 1200 metros de esta playa urbana se caracterizan por su arena oscura y gruesa, mientras sus aguas azules,
+          cristalinas y tranquilas han ganado recientemente la Bandera Azul, un premio otorgado por la FEE (Fundación
+          para la Educación Ambiental). Gracias a la gran cantidad de instalaciones disponibles (aseos, duchas,
+          pasarelas, limpieza, vigilancia y salvamento, así como una cabina de la Cruz Roja y un acceso para personas
+          con movilidad reducida), la playa tiene una tasa muy alta de ocupación, especialmente durante los meses de
+          verano.
+
+          El encanto del paseo marítimo, los hoteles y los chiringuitos, junto con las más de 100 plazas de aparcamiento
+          y la parada de autobús cercana a la playa, hará que te guste aún más este lugar. Ahora sabes por qué esta
+          playa se encuentra en esta selección de las mejores playas de Granada.</p>
       </div>
       <div class="col-md-5 order-md-1">
-          <br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br>
         <img src="../img/calahonda.jpg" width="550">
 
       </div>
@@ -132,7 +153,10 @@
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">La Joya. <span class="text-muted">Motril.</span></h2>
-        <p class="lead">Los 600 metros de arena y grava de la pequeña cala de La Joya están rodeados por un acantilado y rocas que los protegen. La dificultad de acceso (tienes que bajar una escalera de 200 peldaños) y la falta de instalaciones y servicios son las características a destacar de esta playa virgen, donde los visitantes practican nudismo.</p>
+        <p class="lead">Los 600 metros de arena y grava de la pequeña cala de La Joya están rodeados por un acantilado y
+          rocas que los protegen. La dificultad de acceso (tienes que bajar una escalera de 200 peldaños) y la falta de
+          instalaciones y servicios son las características a destacar de esta playa virgen, donde los visitantes
+          practican nudismo.</p>
       </div>
       <div class="col-md-5">
         <img src="../img/joya.jpg" width="500px">
@@ -143,31 +167,80 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">San Cristóbal. <span class="text-muted">Almuñecar.</span></h2>
-          <p class="lead">Esta playa de arenas oscuras llamada La China, se extiende 1100 metros por la zona urbanizada de Almuñecar. Sus costas son acariciadas por el suave oleaje de aguas cristalinas, rodeados de una exuberante vegetación. Normalmente es muy frecuentada y ofrece diversas instalaciones como servicios de vigilancia y salvamento, policía local, duchas, aseos, servicio de alquiler de hamacas y sombrillas, servicio de limpieza, papeleras, zonas infantiles, y algunos chiringuitos, donde podrás degustar deliciosos pescaitos fritos.</p>
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">San Cristóbal. <span class="text-muted">Almuñecar.</span></h2>
+        <p class="lead">Esta playa de arenas oscuras llamada La China, se extiende 1100 metros por la zona urbanizada de
+          Almuñecar. Sus costas son acariciadas por el suave oleaje de aguas cristalinas, rodeados de una exuberante
+          vegetación. Normalmente es muy frecuentada y ofrece diversas instalaciones como servicios de vigilancia y
+          salvamento, policía local, duchas, aseos, servicio de alquiler de hamacas y sombrillas, servicio de limpieza,
+          papeleras, zonas infantiles, y algunos chiringuitos, donde podrás degustar deliciosos pescaitos fritos.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="../img/playa-san-cristobal.jpg" width="570">
+
+      </div>
+    </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer mt-auto py-3">
+      <p class="float-end"><a href="#">Subir</a></p>
+      <p>&copy; DIU-Piña &middot; &middot; <a href="sobrenosotros.html">Sobre nosotros</a></p>
+      <img src="../img/LogoGT.png" width="200">
+    </footer>
+  </main>
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Iniciar Sesión</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="col-md-5 order-md-1">
-          <img src="../img/playa-san-cristobal.jpg" width="570">
-  
+        <div class="modal-body">
+          <form>
+            <a href="../index.html">
+              <img id="centrador" class="center" src="../img/LogoGT.png" width="300">
+            </a>
+
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Usuario</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Contraseña</label>
+            </div>
+
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me">Recuerde mis datos
+              </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar Sesión</button>
+            <br><br>
+            <h1 class="h6 mb-3 fw-normal">¿No estás registrado?</h1>
+            <a href="registrar.html">
+              ¡Registrate!
+            </a>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
+    </div>
+  </div>
+</body>
 
-</div>
-
-  <!-- FOOTER -->
-  <footer class="footer mt-auto py-3">
-    <p class="float-end"><a href="#">Subir</a></p>
-    <p>&copy; DIU-Piña &middot; &middot; <a href="#">Sobre nosotros</a></p>
-    <img src="../img/LogoGT.png" width="200">
-  </footer>
-</main>
-
-
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
-
-      
-  </body>
 </html>
