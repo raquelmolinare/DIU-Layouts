@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Piña">
+    <link rel="shortcut icon" href="../img/LogoGT_Blanco.png" type="image/x-icon">
+    <title>GrandTrip</title>
+    
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sidebars/">
+    
+
+    <!-- Bootstrap core CSS -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="canonical" href="https://icons.getbootstrap.com/icons/geo-alt/">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="../style/sidebars.css" rel="stylesheet">
+    <link href="../style/carousel.css" rel="stylesheet">
+    <link href="../style/nuestro.css" rel="stylesheet">
+    <link href="../style/comun.css" rel="stylesheet">
+    <link href="../style/transporte.css" rel="stylesheet">
+    
+    <script src="https://use.fontawesome.com/c5314fb3be.js"></script>
+
+
+    <!--  jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- Isolated Version of Bootstrap, not needed if your site already uses Bootstrap -->
+    <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/css/bootstrap-datetimepicker.min.css">  
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+
+    <!-- Bootstrap Date-Picker Plugin -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+
+    </head>
+  <body>
+    
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="../img/NAME_navbar.png" width="120px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+              aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="../pags/estancias.html">Estancias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="../pags/transporte.html">Transporte</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="../pags/restauracion.html">Restauración</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="../pags/ocio.html">Ocio</a>
+                </li>
+    
+              </ul>
+              <form class="d-flex">
+                <div class="btn-group">
+                  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Acciones de usuario
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../pags/registrar.html">Registrarse</a></li>
+                    <li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Iniciar Sesión
+                      </button></li>
+                  </ul>
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+<main>
+
+    <div class="alert alert-success" role="alert" style="margin: 2em; margin-top: 6em; ">
+        <h4 class="alert-heading">Información relativa a la COVID-19</h4>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <p class="col mb-0">consulta las medidas sanitarias y de seguridad que está implementando este establecimiento.</p>
+            </div>
+            
+            <div class="col">
+                <a href="#"><p class="text-end col">Leer mas</p></a>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="row shadow m-4 mt-5" style="background-color:#fff; height: fit-content; ">
+        <div class="row" style="margin-top:1em; margin-left: 1em;  margin-right: 1em;">
+            <h1 class="card-text">Barceló Carmen Granada</h1>
+            <p class="card-text">Calle Acera del Darro 62, 18005 Granada
+            <div class="opinion">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16" color="#ffa400">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16" color="#ffa400">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16" color="#ffa400">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16" color="#ffa400">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16" color="#ffa400">
+                    <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                </svg>
+            </div>
+            
+        </div>
+
+
+        <div class="row  align-items-center justify-content-center">
+            <div class="col-lg-8 p-4">
+
+                <div id="myCarousel" class="carousel slide shadow-lg rounded" data-bs-ride="carousel" style="margin-top: 3em; margin-left: 1em; margin-right: 1em;">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="max-height: 40em;">
+                            <img class="rounded" src="../img/barcelo/1.jpg">
+                        </div>
+                        <div class="carousel-item" style="max-height: 40em;">
+                            <img class="rounded" src="../img/barcelo/2.jpg">
+                        </div>
+                        <div class="carousel-item" style="max-height: 40em;">
+                            <img class="rounded" src="../img/barcelo/3.jpg">
+                        </div>
+                        <div class="carousel-item" style="max-height: 40em;">
+                            <img class="rounded" src="../img/barcelo/4.jpg">
+                        </div>
+                        <div class="carousel-item" style="max-height: 40em;">
+                            <img class="rounded" src="../img/barcelo/5.jpg">
+                        </div>
+                        <div class="carousel-item" style="max-height: 40em;">
+                            <img class="rounded" src="../img/barcelo/6.jpg">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16" color="white">
+                        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                        </svg></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16" color="white">
+                            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                            </svg>
+                    </span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col p-1 align-items-center justify-content-center shadow" style="background-color:#fff; height: fit-content;">
+                
+                <div class="row  align-items-center text-center justify-content-center">
+                    <div class=findInput style="width: fit-content;">
+                        <div class="reserva">
+
+                            <div class="row">
+                                <div class="col-md">
+
+                                    <!-- Fecha -->
+                                    <div class="p-1 alert-success rounded rounded-pill shadow-sm mb-4">
+                                        <div class="input-group" >
+                                            <p style="width: 25px; height: 4px; padding: 3%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                                                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                                                </svg>
+                                            </p>
+                                            <input class="form-control border-0 rounded rounded-pill alert-success" id="date" name="date" placeholder="Check in" type="text"/>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col">
+                                    <div class="p-1 alert-danger rounded rounded-pill shadow-sm mb-4">
+                                        <div class="input-group">
+                                            <p style= "width: 25px; height: 4px; padding: 3%;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                                                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                                                </svg>
+                                            </p>
+                                            <input class="form-control border-0 rounded rounded-pill alert-danger" id="date" name="date" placeholder="Check out" type="text"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row-cols-1">
+
+                                <!-- Clientes y HABITACIONES -->
+                                <div class="p-1 bg-light rounded shadow-sm mb-4" id="clienteshabitaciones">
+                                    
+                                    <div class="input-group">
+                                        <p style="width: 15px; height: 1px; padding-top: 3%; padding-right: 7%;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                                                <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+                                            </svg>
+                                        </p>
+                                        <input class="form-control rounded border-0 bg-light" id="clientes"  min="1" name="quantity" value="1" type="number"/>
+                                        <p style=" width: 6em; height: 1px; padding-top: 3%;">Habitaciones</p>
+                                        <input class="form-control rounded border-0 bg-light" id="clientes" min="1" name="quantity"  value="1" type="number"/>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p><a class="btn btn-lg btn-primary mt-2" href="#">Reserva</a></p>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <hr>
+
+                <div class="row align-items-center justify-content-center">
+                    <div class="row" style="margin-left: 1em;">
+                        <h5>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
+                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                            </svg>
+                            Ubicación
+                        </h5>
+                    </div>
+                    
+                    <div class=findMap>
+                        <!--Google map-->
+                        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 220px; margin-left:2%; margin-right:2%;">
+                            <iframe src="https://maps.google.com/maps?q=granada&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                            style="border:0" allowfullscreen></iframe>
+                        </div>
+                        <!--Google Maps-->
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+
+
+    <div class="container" style="margin-top: 1em;">
+
+        <h3 class=" mb-3">Información</h3>
+        <hr>
+        <div class="row">
+
+            <div class="col m-2 p-5 align-items-center justify-content-center shadow-sm" style="background-color:#fff; height: fit-content;">
+                <h2>4,5</h2> 
+                <div class="opinion">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16" color="#ffa400">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16" color="#ffa400">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16" color="#ffa400">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16" color="#ffa400">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16" color="#ffa400">
+                        <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                    </svg>
+                </div>                    
+                
+                <p>Muy bueno · 2.057 opiniones</p>
+
+                <p>
+                    Barceló Granada Congress 5* (hotel miembro de Barcelo Hotel Group) es todo un símbolo en la histórica ciudad de Granada, tanto por su privilegiada ubicación como por su original diseño arquitectónico. El hotel goza de una ubicación inmejorable, situado a solo unos metros de la Calle Recogidas que conecta el hotel con el centro de la ciudad, y muy cerca también del Palacio de Congresos y Exposiciones de Granada, y del Parque de las Ciencias. Además se ubica frente a un centro comercial, y dispone de acceso directo (a solo 1 minuto en coche) a la carretera que conecta la ciudad con Sierra Nevada, y con el Aeropuerto de Granada a solo 20 minutos. El hotel se enmarca dentro de la denominada Zona 1 de la ciudad, el área preferente para todos aquellos que visiten Granada por motivos de negocio. 
+                </p>
+                <p>
+                Dispone de un total de 249 habitaciones, distribuidas en Superiores, Junior Suites y las espectaculares Suites con vistas panorámicas a la ciudad. Todas las habitaciones están totalmente equipadas, disponiendo (entre otras facilidades) de baño completo con columna de hidromasaje, minibar, secador de pelo, Wifi gratis, caja fuerte, carta de almohadas… La distribución máxima de las habitaciones es de 3 personas, aunque hasta 4 personas podrían alojarse gracias las habitaciones 2x2 Familiar contiguas. Entre todas las habitaciones destacan las Junior Suites y Suites con bañera de hidromasaje. Las Suites constan también de amplio salón y de dormitorio panorámico con espectaculares vistas de toda la ciudad. Además con las habitaciones Club Premium podrá disfrutar de una estancia de máximo lujo en el hotel.
+                </p>
+            </div>
+
+            <div class="col m-2 p-5 align-items-center justify-content-center shadow-sm" style="background-color:#fff; height: fit-content;">
+                <div class="row">
+                    <div class="col">
+                        <h5>Servicios de la propiedad</h5>
+                        <p>- Aparcamiento privado de pago dentro del recinto</p>
+                        <p> - Internet de alta velocidad gratuito (wifi)</p>
+                        <p> - Jacuzzi</p>
+                        <p> - Gimnasio / Sala de entrenamiento</p>
+                        <p> - Bar/salón</p>
+                        <p> - Alquiler de bicicletas</p>
+                        <p> - Esquí</p>
+                        <p> - Tronas disponibles</p>
+                        <p> - Mostrar más</p>
+                    </div>
+
+                    <div class="col">
+                        <h5>Servicios de habitación</h5>
+                        <p> - Habitaciones insonorizadas</p>
+                        <p> - Aire acondicionado</p>
+                        <p> - Mesa de escritorio</p>
+                        <p> - Servicio de limpieza</p>
+                        <p> - Servicio de habitaciones</p>
+                        <p> - Minibar</p>
+                        <p> - Televisor de pantalla plana</p>
+                        <p> - Secador de pelo</p>
+                        <p> - Mostrar más</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h5>Tipos de habitación</h5>
+                        <p> - Suite nupcial</p>
+                        <p> - Habitaciones de no fumadores</p>
+                        <p> - Suites</p>
+                        <p> - Habitaciones para familias</p>
+                    </div>
+
+                    <div class="col">
+                        <h5>Información relevante</h5>
+                        <p> - ESTILO DEL HOTEL: Negocios</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            
+        </div>
+        
+    </div>
+
+
+  <!-- FOOTER -->
+  <footer class="footer mt-auto py-3">
+    <p>&copy; DIU-Piña &middot; &middot; <a href="#">Sobre nosotros</a></p>
+    <p><img src="../img/LogoGT.png" width="200"></p>
+    <p class="float-end"><a href="#">Subir</a></p>
+  </footer>
+
+</main>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="../js/script.js" defer></script>
+
+
+      
+  </body>
+</html>
